@@ -3,7 +3,7 @@ const https = require('https');
 const port = process.env.PORT || 3000;
 
 const TARGET_URLS = {
-   default: 'https://ivory-bookings-828908.framer.app/', // Default URL if no match is found
+   default: 'https://weekly-begin-642975.framer.app/', // Default URL if no match is found
 };
 
 function getTargetUrl(req) {
